@@ -62,7 +62,6 @@ body {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     font-weight: var(--font-regular);
-    /* background-color: var(--body-color); */
     background-color: #fff;
     color: var(--font-color);
 }

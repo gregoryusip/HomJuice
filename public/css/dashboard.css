@@ -1,16 +1,19 @@
 /* ========== IMPORT FONT ========== */
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap");
 
 :root {
     /* =========== FONT FAMILY ========== */
-    --body-font: "Rubik", sans-serif;
+    /* --body-font: "Rubik", sans-serif; */
     /* --body-font: "Balsamiq Sans", cursive; */
+    --body-font: "Zen Maru Gothic", sans-serif;
 
     /* =========== FONT COLOR ========== */
     --body-color: #fff9eb;
     --first-color: #5dbbb1;
     --secondary-color: #d9386c;
     --third-color: #f9654b;
+    --fourth-color: #f9d573;
     --font-color: #1d1d1d;
     --font-alt-color: #363636;
 
@@ -58,7 +61,26 @@ a {
     transition: ease 0.4s;
 }
 a:hover {
-    color: var(--font-alt-color);
+    color: var(--first-color);
+}
+
+/* FONT */
+.main-title {
+    font-weight: var(--font-extra-black);
+    font-size: var(--extra-big-font-size);
+}
+.main-subtitle {
+    font-weight: bold;
+    font-size: var(--big-font-size);
+}
+
+/* BREADCRUMP */
+.breadcrumbs {
+    font-weight: 700;
+    font-size: 1rem;
+}
+.breadcrumbs a {
+    text-decoration: underline;
 }
 
 /* ========== FORMS ========== */
@@ -337,4 +359,29 @@ p.product-detail-benefit {
 img.order-platform-icon {
     /* width: 50px; */
     height: 60px;
+}
+
+/* WHY HOMJUICE */
+.why-homjuice-card {
+    border-radius: 10px;
+    border-color: transparent;
+    transition: 0.4s ease;
+}
+.why-homjuice-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.3), 0 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+.why-homjuice-image {
+    width: 100px;
+}
+
+/* INGREDIENT & BENEFIT */
+.container-ingredient {
+    background-color: var(--fourth-color);
+}
+
+/* SHARE ICON */
+.share-icon button {
+    background: transparent;
+    border: 0;
 }

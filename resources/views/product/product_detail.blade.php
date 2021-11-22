@@ -48,17 +48,6 @@
                         <a href="#"><img src="/img/logo/whatsapp-icon.svg" alt="" class="img-fluid order-platform-icon"></a>
                     </div>
                 </div>
-                {{-- <div class="row">
-                    <div class="col">
-                        <a href="{{ $product->tokopedia_link }}" target="_blank"><img src="/img/logo/tokopedia.svg" alt="" class="img-fluid order-platform-icon"></a>
-                    </div>
-                    <div class="col">
-                        <a href="{{ $product->shopee_link }}" target="_blank"><img src="/img/logo/shopee.svg" alt="" class="img-fluid order-platform-icon"></a>
-                    </div>
-                    <div class="col">
-                        <a href="#"><img src="/img/logo/whatsapp-icon.svg" alt="" class="img-fluid order-platform-icon"></a>
-                    </div>
-                </div> --}}
             </div>
         </div>
     </div>
