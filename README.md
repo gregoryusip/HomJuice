@@ -1,5 +1,7 @@
 ## About
 
+Website: https://homjuicetest.000webhostapp.com/
+
 Website ini merupakan website untuk menampilkan produk-produk, dalam hal ini produk jus dengan merk HomJuice. Website ini dapat melakukan berbagai fitur di dalamnya yang dapat dilakukan oleh admin, yaitu:
 - Create, Edit, Show, Delete
 - Share Product / Blog
