@@ -23,6 +23,7 @@ Teknologi yang digunakan dalam website ini yaitu:
 - HTML
 - CSS
 - JavaScript
+- Bootstrap 5
 - Laravel (Framework)
 - Owl Carousel
 
