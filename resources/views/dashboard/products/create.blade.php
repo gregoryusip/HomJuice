@@ -76,10 +76,14 @@
 
         <div class="col-md mb-3">
             <label for="ingredient_product" class="form-label">Product Ingredient</label>
-            {{-- <input type="text" class="form-control @error('ingredient') is-invalid @enderror" id="ingredient" name="ingredient" placeholder="Ingredient" required value="{{ old('ingredient') }}"> --}}
-            @foreach ($ingredients as $ingredient)
-                <input type="checkbox" name="ingredient_product[]" id="ingredient_product" value="{{$ingredient->id}}"> <label>{{$ingredient->name}}</label>
-            @endforeach
+            <br>
+            <div class="row">
+                @foreach ($ingredients as $ingredient)
+                <div class="col-md-3 mb-2">
+                    <input type="checkbox" name="ingredient_product[]" id="ingredient_product" value="{{$ingredient->id}}"> <label>{{$ingredient->name}}</label>
+                </div>
+                @endforeach
+            </div>
             @error('ingredient')
                 <div class="invalid-feedback">
                     {{ $message }}
